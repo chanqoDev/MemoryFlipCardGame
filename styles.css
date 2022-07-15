@@ -8,7 +8,7 @@ div#memory_board {
 }
 /* > target all child divs within the memory board */
 div#memory_board > div{
-    background: url(https://image.flaticon.com/icons/png/64/188/188924.png);
+    background: url('/assets/dino-egg.png') no-repeat center;
     border: #000 1px solid;
     width: 71px;
     height: 71px;
@@ -21,7 +21,7 @@ div#memory_board > div{
 }
 
 body {
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F1%2Fd%2F3%2F1249894-cool-hd-dinosaur-wallpapers-1920x1080-tablet.jpg&f=1&nofb=1);
+    background: url('/assets/dino-egg.png') no-repeat center;
 }
 h1{
     color: #f1f2f6;
