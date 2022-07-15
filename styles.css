@@ -9,7 +9,7 @@ div#memory_board {
     width: 800px;
     height: 540px;
     padding: 24px;
-    margin:0px auto; 
+    margin:0px auto;    
 }
 /* > target all child divs within the memory board */
 div#memory_board > div{
@@ -24,9 +24,6 @@ div#memory_board > div{
     cursor: pointer;
     text-align: center;
 }
-
-
-
 h1{
     color: #f1f2f6;
     font-size: 24pt;
@@ -34,3 +31,12 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+  .flex-container {
+      display: flex; 
+  }
+  div#memory_board {
+     padding: 0; 
+     height: auto;
+  }
+}
