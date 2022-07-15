@@ -8,7 +8,7 @@ div#memory_board {
 }
 /* > target all child divs within the memory board */
 div#memory_board > div{
-    background: url('https://github.com/chanqoDev/MemoryFlipCardGame/blob/5bfde03108ab5af0772c0290eeb2c95e79c6510a/assets/dino-egg.png') no-repeat center;
+    background: url('/assets/dino-egg.png') no-repeat center;
     border: #000 1px solid;
     width: 71px;
     height: 71px;
@@ -21,7 +21,7 @@ div#memory_board > div{
 }
 
 body {
-    background: url('https://github.com/chanqoDev/MemoryFlipCardGame/blob/5bfde03108ab5af0772c0290eeb2c95e79c6510a/assets/dino.jpeg') no-repeat;
+    background: url('/assets/dino.jpeg') no-repeat center;
     height: 100vh;
 }
 h1{
