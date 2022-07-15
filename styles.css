@@ -21,11 +21,13 @@ div#memory_board > div{
 }
 
 body {
-    background: url('/assets/dino-egg.png') no-repeat center;
+    background: url('/assets/dino.jpeg') no-repeat center;
+    height: 100vh;
 }
 h1{
     color: #f1f2f6;
-    font-size: 24pts;
+    font-size: 24pt;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+
