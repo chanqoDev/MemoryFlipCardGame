@@ -80,10 +80,10 @@ function memoryFlipTile(tile, val) {
           var tile_1 = document.getElementById(memoryTileIDs[0]);
           var tile_2 = document.getElementById(memoryTileIDs[1]);
           tile_1.style.background =
-            'url("assets/dino-egg.png") no-repeat center';
+            "url(https://github.com/chanqoDev/MemoryFlipCardGame/blob/5bfde03108ab5af0772c0290eeb2c95e79c6510a/assets/dino-egg.png) no-repeat center";
           tile_1.innerHTML = "";
           tile_2.style.background =
-            'url("assets/dino-egg.png") no-repeat center';
+            "url(https://github.com/chanqoDev/MemoryFlipCardGame/blob/5bfde03108ab5af0772c0290eeb2c95e79c6510a/assets/dino-egg.png) no-repeat center";
           tile_2.innerHTML = "";
           // Clear both arrays
           memoryVal = [];
