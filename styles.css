@@ -1,3 +1,8 @@
+
+body {
+    background: url('/assets/dino.jpeg') no-repeat center !important;
+    height: 100vh;
+}
 div#memory_board {
     background: #ccc; 
     border: #999 1px solid;
@@ -20,10 +25,8 @@ div#memory_board > div{
     text-align: center;
 }
 
-body {
-    background: url('/assets/dino.jpeg') no-repeat center;
-    height: 100vh;
-}
+
+
 h1{
     color: #f1f2f6;
     font-size: 24pt;
