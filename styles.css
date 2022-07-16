@@ -1,7 +1,7 @@
 
 body {
-    background: url('./assets/dino.jpeg') no-repeat center !important;
-    height: 100vh;
+    background: #A99877 url('./assets/dino.jpeg') no-repeat center !important;
+    height: auto;
 }
 div#memory_board {
     background: #ccc; 
@@ -13,7 +13,7 @@ div#memory_board {
 }
 /* > target all child divs within the memory board */
 div#memory_board > div{
-    background: url('./assets/dino-egg.png') no-repeat center;
+    background: #303952 url('./assets/dino-egg.png') no-repeat center;
     border: #000 1px solid;
     width: 71px;
     height: 71px;
@@ -32,11 +32,34 @@ h1{
 }
 
 @media only screen and (max-width: 600px) {
+    
   .flex-container {
-      display: flex; 
-  }
+      display: flex;  
+      justify-self: center;
+      align-items: center;
+      justify-content: center;
+    }
   div#memory_board {
-     padding: 0; 
-     height: auto;
+     padding: 10px; 
+     background-color: transparent;
+     border: none; 
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
   }
+      
+     
+  div#memory_board>div {
+      text-align: center;
+      justify-self: center;
+      align-items: center; 
+    float: center;
+    width: 48px;
+    /* margin: 1px; */
+    padding: 10px;
+    flex: 1 0 20%;
+    margin: 5px;
+    height: 100px;
+  }
+  
 }
